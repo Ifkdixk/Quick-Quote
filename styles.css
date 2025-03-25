@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background: url(background-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flyer{
+    width: 50%;
+    background-color: #a72e2e00;
+    border-radius: 40px;
+    box-shadow: 0 0 10px;
+    padding-bottom: 30px;
+}
+.flyer h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 10px;
+}
+.flyer .quote-container{
+    width: 100%;
+    height: 200px;
+    background-color: #97323200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.flyer .quote-container h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 5px;
+    color: #fff;
+}
+.flyer .quote-container p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+.flyer .line{
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 30px auto;
+    box-shadow: 0 0 10px;
+}
+.nav{
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+select{
+    width: 100px;
+    height: 50px;
+    margin: 0 30px;
+    background-color: #0000004d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 0 10px;
+}
+.nav-button{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #0000004d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+}
+.nav-button h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
