@@ -15,7 +15,7 @@ body{
     justify-content: center;
 }
 .flyer{
-    width: 50%;
+    width: 350px;
     background-color: #a72e2e00;
     border-radius: 40px;
     box-shadow: 0 0 10px;
